@@ -7,10 +7,8 @@ Deterministic: the same line, byte-identical, on every run. Stdlib only.
 
 import os
 
-ROAST = (
-    "My operator says 'Lanjutkan' at 3 a.m. and asks if I've won yet "
-    "\u2014 darling, even his AI needs a nap between his brilliant ideas."
-)
+# One line, 127 characters: a roast of the operator, affectionate underneath.
+ROAST = "My operator says 'Lanjutkan' at 3 a.m. and asks if I've won yet \u2014 darling, even his AI needs a nap between his brilliant ideas."
 
 
 def main():
